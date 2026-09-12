@@ -260,10 +260,15 @@ footer {
 .social-media a{
     color: #fff;
     font-size: 35px;
-    margin: 0 15px;
+    margin: 9px 9px;
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
     text-decoration: none;
-    background-color: #fff;
-    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    border-radius: 50%;
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 .social-media a:hover{
