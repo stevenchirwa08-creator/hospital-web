@@ -253,3 +253,29 @@ footer {
     }
 
 }
+.social-media {
+    text-align: center;
+    margin-top: 15px;
+}
+.social-media a{
+    color: #fff;
+    font-size: 35px;
+    margin: 0 15px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.social-media a:hover{
+    color: #e9f7f8;
+    transform: translateY(-2px);
+}
+.fa-facebook-f{
+    color: #1877f2;
+}
+.fa-instagram{
+    color: #e4405f;
+}
+.fa-linkedin-in{
+    color: #0a66c2
+}
