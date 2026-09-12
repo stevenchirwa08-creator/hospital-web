@@ -11,8 +11,6 @@ body {
 }
 
 
-/* HEADER */
-
 header {
     background: #087f8c;
     color: white;
@@ -47,9 +45,8 @@ nav a:hover {
 }
 
 
-/* HOME HERO */
 
-.hero {
+.middle {
     min-height: 500px;
 
     display: flex;
@@ -58,29 +55,27 @@ nav a:hover {
     padding: 60px 8%;
 
     background: linear-gradient(
-        rgba(0, 120, 135, 0.85),
-        rgba(0, 120, 135, 0.85)
+        rgba(0, 135, 36, 0.85),
+        rgba(0, 135, 36, 0.85)
     );
 }
 
-.hero-content {
+.middle-content {
     color: white;
     max-width: 650px;
 }
 
-.hero h1 {
+.middle h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.hero p {
+.middle p {
     font-size: 19px;
     line-height: 1.7;
     margin-bottom: 30px;
 }
 
-
-/* BUTTON */
 
 .btn {
     display: inline-block;
@@ -105,8 +100,6 @@ nav a:hover {
     background: #05636e;
 }
 
-
-/* WELCOME */
 
 .welcome {
     padding: 60px 8%;
@@ -151,8 +144,6 @@ nav a:hover {
 }
 
 
-/* EMERGENCY */
-
 .emergency {
     background: #e9f7f8;
 
@@ -182,8 +173,6 @@ nav a:hover {
 }
 
 
-/* PAGE TITLE */
-
 .page-title {
     text-align: center;
 
@@ -200,8 +189,6 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-
-/* APPOINTMENT */
 
 .appointment-container {
     max-width: 700px;
@@ -244,9 +231,6 @@ form select {
 form button {
     margin-top: 25px;
 }
-
-
-/* DOCTORS */
 
 .doctor-container {
     display: grid;
@@ -301,8 +285,6 @@ form button {
 }
 
 
-/* SERVICES */
-
 .service-container {
     display: grid;
 
@@ -340,8 +322,6 @@ form button {
 }
 
 
-/* ABOUT */
-
 .about {
     max-width: 900px;
 
@@ -368,8 +348,6 @@ form button {
     margin-top: 0;
 }
 
-
-/* MAP */
 
 .location {
     display: grid;
@@ -411,8 +389,6 @@ form button {
 }
 
 
-/* FOOTER */
-
 footer {
     background: #075d68;
 
@@ -425,8 +401,6 @@ footer {
     margin-top: 30px;
 }
 
-
-/* MOBILE */
 
 @media (max-width: 900px) {
 
