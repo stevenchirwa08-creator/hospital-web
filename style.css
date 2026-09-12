@@ -54,10 +54,8 @@ nav a:hover {
 
     padding: 60px 8%;
 
-    background: linear-gradient(
-        rgba(0, 135, 36, 0.85),
-        rgba(0, 135, 36, 0.85)
-    );
+    background: linear-gradient(#08488c,#087f8c)
+
 }
 
 .middle-content {
@@ -145,7 +143,7 @@ nav a:hover {
 
 
 .emergency {
-    background: #e9f7f8;
+    background:linear-gradient(#08488c,#087f8c);
 
     text-align: center;
 
@@ -161,7 +159,7 @@ nav a:hover {
 
     margin-top: 20px;
 
-    background: #c62828;
+    background: #a83e3e;
 
     color: white;
 
@@ -188,206 +186,6 @@ nav a:hover {
 
     margin-bottom: 10px;
 }
-
-
-.appointment-container {
-    max-width: 700px;
-
-    margin: 50px auto;
-
-    padding: 35px;
-
-    background: white;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 3px 15px rgba(0,0,0,0.1);
-}
-
-form label {
-    display: block;
-
-    margin-top: 15px;
-
-    margin-bottom: 7px;
-
-    font-weight: bold;
-}
-
-form input,
-form select {
-    width: 100%;
-
-    padding: 13px;
-
-    border: 1px solid #ccc;
-
-    border-radius: 5px;
-
-    font-size: 15px;
-}
-
-form button {
-    margin-top: 25px;
-}
-
-.doctor-container {
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap: 25px;
-
-    padding: 50px 7%;
-}
-
-.doctor-card {
-    background: white;
-
-    text-align: center;
-
-    padding: 30px 20px;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 3px 12px rgba(0,0,0,0.08);
-}
-
-.doctor-icon {
-    font-size: 60px;
-
-    color: #087f8c;
-
-    margin-bottom: 15px;
-}
-
-.doctor-card h2 {
-    font-size: 20px;
-
-    margin-bottom: 10px;
-}
-
-.doctor-card p {
-    margin-bottom: 15px;
-}
-
-.available {
-    display: block;
-
-    color: green;
-
-    font-weight: bold;
-
-    margin-bottom: 20px;
-}
-
-
-.service-container {
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 25px;
-
-    padding: 50px 8%;
-}
-
-.service-card {
-    background: white;
-
-    padding: 35px;
-
-    text-align: center;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 3px 12px rgba(0,0,0,0.08);
-}
-
-.service-card i {
-    font-size: 45px;
-
-    color: #087f8c;
-
-    margin-bottom: 20px;
-}
-
-.service-card h2 {
-    margin-bottom: 12px;
-}
-
-
-.about {
-    max-width: 900px;
-
-    margin: 50px auto;
-
-    background: white;
-
-    padding: 45px;
-
-    border-radius: 10px;
-
-    line-height: 1.8;
-}
-
-.about h2 {
-    color: #087f8c;
-
-    margin-bottom: 10px;
-
-    margin-top: 25px;
-}
-
-.about h2:first-child {
-    margin-top: 0;
-}
-
-
-.location {
-    display: grid;
-
-    grid-template-columns:
-        1fr 2fr;
-
-    gap: 30px;
-
-    padding: 50px 8%;
-}
-
-.contact-info {
-    background: white;
-
-    padding: 30px;
-
-    border-radius: 10px;
-}
-
-.contact-info h2 {
-    color: #087f8c;
-
-    margin-bottom: 25px;
-}
-
-.contact-info p {
-    margin: 20px 0;
-}
-
-.contact-info i {
-    color: #087f8c;
-
-    margin-right: 10px;
-}
-
-.map iframe {
-    border-radius: 10px;
-}
-
 
 footer {
     background: #075d68;
