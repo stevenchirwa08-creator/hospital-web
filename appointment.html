@@ -25,8 +25,75 @@
             <a href="map.html">Map</a>
         </nav>
     </header>
+    </header>
 
+    <section class="page-title">
+        <h1>Book an Appointment</h1>
+        <p>Select a doctor, date and available time.</p>
+    </section>
 
+    <section class="appointment-container">
+
+        <form id="appointmentForm">
+
+            <label>Patient Name</label>
+            <input type="text" id="patientName" required>
+
+            <label>Phone Number</label>
+            <input type="tel" id="phone" required>
+
+            <label>Email</label>
+            <input type="email" id="email" required>
+
+            <label>Select Our Services</label>
+
+            <select id="department" required>
+                <option value="">Choose  Services</option>
+                <option>General Practice</option>
+                <option>ENT</option>
+                <option>Oncology</option>
+                <option>Radiology</option>
+                <option>Laboratory</option>
+                <option>Audiology</option>
+                <option>Pharmacy</option>
+            </select>
+
+            <label>Select Doctor</label>
+
+            <select id="doctor" required>
+                <option value="">Choose Doctor</option>
+                <option>Dr. Sarah Banda</option>
+                <option>Dr. James Phiri</option>
+                <option>Dr. Suzgo Mzumara</option>
+                <option>Dr. Moses Chirwa</option>
+            </select>
+
+            <label>Appointment Date</label>
+            <input type="date" id="date" required>
+
+            <label>Available Time</label>
+
+            <select id="time" required>
+                <option value="">Choose Time</option>
+                <option>08:00 AM</option>
+                <option>09:00 AM</option>
+                <option>10:00 AM</option>
+                <option>11:00 AM</option>
+                <option>02:00 PM</option>
+                <option>03:00 PM</option>
+                <option>04:00 PM</option>
+            </select>
+
+            <button type="submit" class="btn">
+                <i class="fa-solid fa-calendar-check"></i>
+                Confirm Appointment
+            </button>
+
+        </form>
+
+    </section>
+
+    <script src="js/script.js"></script>
 
     <footer>
         <p>&copy; 2026 Ashar Specialist Medical Center</p>
