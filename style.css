@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background: linear-gradient(#076b76);
+    background: linear-gradient(#1b4332,#2d6a4f,#087f8c);
     color: white;
     padding: 18px 7%;
 
@@ -23,16 +23,6 @@ header {
     flex-wrap: wrap;
 }
 
-.logo {
-    font-size: 21px;
-    font-weight: bold;
-}
-
-.logo i {
-    margin-right: 8px;
-}
-
-
 nav a {
     color: white;
     text-decoration: none;
@@ -41,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #d7f9fc;
+    color: #232525;
 }
 
 
@@ -54,7 +44,7 @@ nav a:hover {
 
     padding: 60px 8%;
 
-    background: linear-gradient(#08488c,#087f8c)
+    background: linear-gradient(#08488c,#2d6a4f)
 
 }
 
@@ -143,7 +133,7 @@ nav a:hover {
 
 
 .emergency {
-    background:linear-gradient(#08488c,#087f8c);
+    background:linear-gradient(#08488c,#2d6a4f);
 
     text-align: center;
 
@@ -188,7 +178,7 @@ nav a:hover {
 }
 
 footer {
-    background: #075d68;
+    background: linear-gradient(#1b4332,#2d6a4f,#087f8c);
 
     color: white;
 
@@ -287,9 +277,14 @@ footer {
 .logo1 {
     border: black;
     border-radius: 50%;
-    object-fit: cover;
-    width: 50px;
+    object-fit: contain;
+    width: auto;
     height: 50px;
+}
+.logo1 img{
+    background: transparent;
+    border: none;
+    box-shadow: none;
 }
 .brand{
     display: flex;
