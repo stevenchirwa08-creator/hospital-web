@@ -227,30 +227,6 @@ footer {
     margin-top: 30px;
 }
 
-
-@media (max-width: 900px) {
-
-    .doctor-container {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .cards {
-        grid-template-columns:
-            1fr;
-    }
-
-    .service-container {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .location {
-        grid-template-columns:
-            1fr;
-    }
-}
-
 .social-media {
     text-align: center;
     margin-top: 15px;
@@ -444,4 +420,35 @@ form button {
     font-size: 14px;
     color: #121111;
     margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+
+    .doctor-container {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .cards {
+        grid-template-columns:
+            1fr;
+    }
+
+    .service-container {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .location {
+        grid-template-columns:
+            1fr;
+    }
+}
+@media (max-width: 600px){
+    .middle h1{
+        font-size: 35px;
+    }
+    .doctor-container,.service-container{
+        grid-template-columns: 1fr;
+    }
 }
