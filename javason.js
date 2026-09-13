@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
 const menuToggle = document.getElementById('menuToggle');
 const navMenu = document.getElementById('navMenu');
 

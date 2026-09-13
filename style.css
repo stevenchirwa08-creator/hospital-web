@@ -75,7 +75,6 @@ display: flex;
 }
 }
 
-
 .middle {
     min-height: 500px;
 
@@ -342,9 +341,10 @@ footer {
 }
 
 .brand-title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    color: #f2f4f6;
 }
 
 .page-title {
