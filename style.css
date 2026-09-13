@@ -10,30 +10,70 @@ body {
     color: #333;
 }
 
-
 header {
-    background: linear-gradient(#1b4332, #2d6a4f, #087f8c);
-    color: white;
-    padding: 18px 7%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px 30px;
+background: linear-gradient(180deg, #0f4c3a, #1a6b52);
+position: relative;
+}
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    flex-wrap: wrap;
+nav {
+display: flex;
+gap: 20px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 15px;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+padding: 8px 4px;
 }
 
 nav a:hover {
-    color: #232525;
+border-bottom: 2px solid #fff;
 }
 
+.menu-toggle {
+display: none;
+flex-direction: column;
+gap: 5px;
+background: none;
+border: none;
+cursor: pointer;
+z-index: 20;
+}
+
+.menu-toggle span {
+width: 28px;
+height: 3px;
+background: #fff;
+border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+.menu-toggle {
+display: flex;
+}
+
+nav {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background: #0f4c3a;
+flex-direction: column;
+padding: 20px;
+gap: 15px;
+text-align: center;
+}
+
+nav.active {
+display: flex;
+}
+}
 
 
 .middle {
@@ -53,12 +93,12 @@ nav a:hover {
 }
 
 .middle h1 {
-    font-size: 48px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .middle p {
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.7;
     margin-bottom: 30px;
 }
@@ -231,7 +271,7 @@ footer {
         margin: 5px;
     }
 
-    .hero h1 {
+    .middle h1 {
         font-size: 35px;
     }
 
@@ -285,7 +325,7 @@ footer {
     border-radius: 50%;
     object-fit: contain;
     width: auto;
-    height:80px;
+    height: 80px;
     font-size: 50px;
 }
 
@@ -300,7 +340,8 @@ footer {
     align-items: center;
     gap: 15px;
 }
-.brand-title{
+
+.brand-title {
     font-size: 32px;
     font-weight: bold;
     font-style: italic;
@@ -367,32 +408,32 @@ form button {
 .doctor-container {
     max-width: 1200px;
     margin: 0px auto;
-    display: flex;
-    flex: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding: 40px 20px;
 }
 
-.doctor-card{
+.doctor-card {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
     padding: 30px 20px;
-    width: 100%;
+    flex: 1 1 260px;
+    max-width: 300px;
     text-align: center;
     box-sizing: border-box;
     transition: transform 0.3 ease;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
 }
-.doctor-card:hover{
+
+.doctor-card:hover {
     transform: translateY(-5px);
 }
-.doctor-icon{
+
+.doctor-icon {
     width: 80px;
     height: 80px;
     background-color: #eaf2fc;
@@ -404,7 +445,8 @@ form button {
     margin: 0 auto 20px auto;
 
 }
-.avilable{
+
+.avilable {
     color: rgb(71, 221, 71);
     margin-bottom: 20px;
     border-radius: 20px;
@@ -414,13 +456,15 @@ form button {
     font-weight: 600;
     font-size: 12px;
 }
-.doctor-card h2{
-font-size: 18px;
-color: #232525;
-margin-bottom: 8px;
+
+.doctor-card h2 {
+    font-size: 18px;
+    color: #232525;
+    margin-bottom: 8px;
 }
-.doctor-card p{
+
+.doctor-card p {
     font-size: 14px;
     color: #121111;
-    margin-bottom:  15px; 
+    margin-bottom: 15px;
 }
