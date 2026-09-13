@@ -42,8 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+document.addEventListener('DOMContentLoaded',() => {
+    window.scrollTo(0,0);
 const menuToggle = document.getElementById('menuToggle');
 const navMenu = document.getElementById('navMenu');
 menuToggle.addEventListener('click', () => {
 navMenu.classList.toggle('active');
+});
 });
