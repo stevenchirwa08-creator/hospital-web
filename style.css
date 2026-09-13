@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background: linear-gradient(#1b4332,#2d6a4f,#087f8c);
+    background: linear-gradient(#1b4332, #2d6a4f, #087f8c);
     color: white;
     padding: 18px 7%;
 
@@ -44,8 +44,7 @@ nav a:hover {
 
     padding: 60px 8%;
 
-    background: linear-gradient(#08488c,#2d6a4f)
-
+    background: linear-gradient(#08488c, #2d6a4f)
 }
 
 .middle-content {
@@ -118,7 +117,7 @@ nav a:hover {
     border-radius: 10px;
 
     box-shadow:
-        0 3px 10px rgba(0,0,0,0.08);
+        0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .card i {
@@ -133,7 +132,7 @@ nav a:hover {
 
 
 .emergency {
-    background:linear-gradient(#08488c,#2d6a4f);
+    background: linear-gradient(#08488c, #2d6a4f);
 
     text-align: center;
 
@@ -178,7 +177,7 @@ nav a:hover {
 }
 
 footer {
-    background: linear-gradient(#1b4332,#2d6a4f,#087f8c);
+    background: linear-gradient(#1b4332, #2d6a4f, #087f8c);
 
     color: white;
 
@@ -243,11 +242,13 @@ footer {
     }
 
 }
+
 .social-media {
     text-align: center;
     margin-top: 15px;
 }
-.social-media a{
+
+.social-media a {
     color: #fff;
     font-size: 35px;
     margin: 9px 9px;
@@ -261,19 +262,24 @@ footer {
     border-radius: 50%;
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
-.social-media a:hover{
+
+.social-media a:hover {
     color: #e9f7f8;
     transform: translateY(-2px);
 }
-.fa-facebook-f{
+
+.fa-facebook-f {
     color: #1877f2;
 }
-.fa-instagram{
+
+.fa-instagram {
     color: #e4405f;
 }
-.fa-linkedin-in{
+
+.fa-linkedin-in {
     color: #0a66c2
 }
+
 .logo1 {
     border: black;
     border-radius: 50%;
@@ -281,28 +287,31 @@ footer {
     width: auto;
     height: 50px;
 }
-.logo1 img{
+
+.logo1 img {
     background: transparent;
     border: none;
     box-shadow: none;
 }
-.brand{
+
+.brand {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
 .page-title {
     text-align: center;
 
     padding: 55px 20px;
 
-    background: #e9f7f8;
+    background: #c0e3e4;
 }
 
 .page-title h1 {
     font-size: 38px;
 
-    color: #087f8c;
+    color: #0a6c76;
 
     margin-bottom: 10px;
 }
@@ -319,7 +328,7 @@ footer {
     border-radius: 10px;
 
     box-shadow:
-        0 3px 15px rgba(0,0,0,0.1);
+        0 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 form label {
@@ -347,4 +356,22 @@ form select {
 
 form button {
     margin-top: 25px;
+}
+
+.doctor-container {
+    max-width: 700px;
+
+    margin: 50px auto;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card{
 }
