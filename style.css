@@ -285,7 +285,8 @@ footer {
     border-radius: 50%;
     object-fit: contain;
     width: auto;
-    height: 50px;
+    height:80px;
+    font-size: 50px;
 }
 
 .logo1 img {
@@ -298,6 +299,11 @@ footer {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+.brand-title{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .page-title {
@@ -359,19 +365,60 @@ form button {
 }
 
 .doctor-container {
-    max-width: 700px;
-
-    margin: 50px auto;
-
-    padding: 35px;
-
-    background: white;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 3px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
 }
 
 .doctor-card{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    padding: 30px, 50px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3 ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doctor-card:hover{
+    transform: translateY(-5px);
+}
+.doctor-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #eaf2fc;
+    color: #1a73e8;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 0 auto 20px auto;
+
+}
+.avilable{
+    color: rgb(71, 221, 71);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 6px 12px;
+    background-color: #f2f4f6;
+    display: inline;
+    font-weight: 600;
+    font-size: 12px;
+}
+.doctor-card h2{
+font-size: 18px;
+color: #232525;
+margin-bottom: 8px;
+}
+.doctor-card p{
+    font-size: 14px;
+    color: #121111;
+    margin-bottom:  15px; 
 }
